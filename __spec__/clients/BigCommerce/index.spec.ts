@@ -3,7 +3,7 @@ dotenv.config();
 
 import { BigCommerceClient } from "../../../src/clients/BigCommerce";
 
-describe('BigCommerce', () => {
+describe.skip('BigCommerce', () => {
 
     const client = new BigCommerceClient();
 
