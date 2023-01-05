@@ -3,8 +3,8 @@
     "scripts": [
         {
             "filename": "alert.js",
-            "name": "Create a new site",
-            "description": "Creates a new site",
+            "name": "Delpoyer Test Script",
+            "description": "This script was uploaded via site-scripts deployer",
             "load_method": "default",
             "location": "head",
             "visibility": "storefront",
