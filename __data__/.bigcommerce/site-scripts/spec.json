@@ -1,0 +1,16 @@
+{
+    "$schema": "../../../schemas/site-scripts.schema.json",
+    "scripts": [
+        {
+            "filename": "alert.js",
+            "name": "Create a new site",
+            "description": "Creates a new site",
+            "load_method": "default",
+            "location": "head",
+            "visibility": "storefront",
+            "consent_category": "essential",
+            "enabled": true,
+            "channel_id": 1
+        }
+    ]
+}

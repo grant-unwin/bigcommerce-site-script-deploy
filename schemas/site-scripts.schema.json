@@ -1,0 +1,57 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "scripts": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "filename": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "load_method": {
+                "type": "string"
+              },
+              "location": {
+                "type": "string"
+              },
+              "visibility": {
+                "type": "string"
+              },
+              "consent_category": {
+                "type": "string"
+              },
+              "enabled": {
+                "type": "boolean"
+              },
+              "channel_id": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "filename",
+              "name",
+              "description",
+              "load_method",
+              "location",
+              "visibility",
+              "consent_category",
+              "enabled",
+              "channel_id"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "scripts"
+    ]
+  }
